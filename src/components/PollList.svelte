@@ -19,7 +19,7 @@
 
 <div class="poll-list">
     {#each $PollStore as poll (poll.id)}
-        <div><PollDetails {poll} on:vote /></div>
+        <div><PollDetails {poll} /></div>
     {/each}
 </div>
 
